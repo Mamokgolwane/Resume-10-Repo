@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(79, 100, 86);
+}
+
+
+
+@media screen and (max-width:768px){/*for devices with 768px and below*/
+    .nav-link:hover{
+        
+        background-color: rgb(223, 223, 231);
+    }
+    #home{
+        height:400px;
+        background-image: url(../Images/20220727_154953\ mobile.jpg);
+        background-color: white;
+        background-size:cover; 
+        position: relative;
+    }
+    #p0{
+        display:none;
+    }
+
+    #p1{
+        color:white;
+        font-weight:bolder;
+        font-size:30px;
+        position: absolute;
+        top:50px;
+    }
+    #p2{
+        color:white;
+        font-size:20px;
+        position: absolute;
+        top:90px;
+    }
+    #p3{
+        display:none;
+    }
+    #p4{
+        display:none;
+    }
+    #show{
+        width:300px;
+    }
+    #skills{
+        height:100px;
+    }
+
+    .icons{
+        justify-content: space-evenly;
+    }
+
+    .icon{
+        animation-name: expand;
+        animation-iteration-count: infinite;
+        animation-duration: 0.7s;
+        animation-direction: alternate;
+        animation-timing-function: ease-in;
+    }
+
+    @keyframes expand {
+        0%{width:25px; height:25px}
+        100%{width:50px; height:50px}
+        
+    }
+
+    #eductaion,p{
+        font-size:10px;
+    }
+    
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px){ /*devices between 768px and 992px */
+   
+    .nav-link:hover{
+        
+        background-color: rgb(223, 223, 231);
+    }
+    #home{
+        height:400px;
+        background-image: url(../Images/20220727_155004\ desktop.jpg);
+        background-color: white;
+        background-size:cover; 
+        position: relative;
+    }
+    #p1{
+        display:none;
+    }
+    #p2{
+        display:none;
+    }
+    #p3{
+        color:white;
+        font-weight:bolder;
+        font-size:30px;
+        position: absolute;
+        top:20px;
+
+    }
+    #p4{
+        color:white;
+        font-size:20px;
+        position: absolute;
+        top: 30px;
+        left:195px;
+
+    }
+    #show{
+        width:400px;
+    }
+    #skills{
+        height:100px;
+    }
+    .icons{
+        justify-content: space-evenly;
+    }
+    .icon{
+        animation-name: expand;
+        animation-iteration-count: infinite;
+        animation-duration: 0.7s;
+        animation-direction: alternate;
+        animation-timing-function: ease-in;
+    }
+
+    @keyframes expand {
+        0%{width:25px; height:25px}
+        100%{width:50px; height:50px}
+        
+    }
+
+    #eductaion,p{
+        font-size:15px;
+    }
+   
+}
+
+@media screen and (min-width:992px){/*devices form 992px and above*/
+    
+    .nav-link:hover{
+        
+        background-color: rgb(223, 223, 231);
+    }
+    #home{
+        height:350px;
+        background-image: url(../Images/20220727_155004\ desktop.jpg);
+        background-color: white;
+        background-size:cover; 
+        position: relative;
+    }
+    #p1{
+        display:none;
+    }
+    #p2{
+        display:none;
+    }
+    #p3{
+        color:white;
+        font-weight:bolder;
+        font-size:30px;
+        position: absolute;
+        top:20px;
+
+    }
+    #p4{
+        color:white;
+        font-size:20px;
+        position: absolute;
+        top: 30px;
+        left:195px;
+
+    }
+    
+    
+    #show{
+        width:400px;
+    }
+    #skills{
+        height:115px;
+    }
+
+    .icons{
+        justify-content: center;
+        
+    }
+    .icon{
+        width:45px;
+        height:45px;
+        margin:10px;
+        animation-name: expand;
+        animation-iteration-count: infinite;
+        animation-duration: 0.7s;
+        animation-direction: alternate;
+        animation-timing-function: ease-in;
+    }
+    
+
+    @keyframes expand {
+        0%{width:25px; height:25px}
+        100%{width:45px; height:45px}
+        
+    }
+    #eductaion,p{
+        font-size:15px;
+    }
+}
