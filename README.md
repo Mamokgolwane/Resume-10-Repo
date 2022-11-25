@@ -1,2 +1,2 @@
 # Resume 10 Repo
- contains code for resume 10
+This is my first ever HTML and CSS project. It is a porfolio project.
